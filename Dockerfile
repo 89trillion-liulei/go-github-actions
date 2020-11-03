@@ -1,5 +1,5 @@
 FROM golang
-MAINTAINER  天南
+MAINTAINER  liulei
 WORKDIR /go/src/git.liebaopay.com/cm/cm_ad_free
 COPY . .
 RUN go build main.go
