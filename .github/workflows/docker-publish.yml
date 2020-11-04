@@ -48,7 +48,7 @@ jobs:
       - name: Get denpendencies
         run: |
           go mod download
-          make clean
+          go build
 
       - name: Build image
         run: docker build . --file Dockerfile --tag docker.pkg.github.com/89trillion/WW4_Server/$IMAGE_NAME
