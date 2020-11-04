@@ -42,13 +42,13 @@ jobs:
     if: github.event_name == 'push'
 
     steps:
-#      - name: Checkout
-#      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-#      - name: Get denpendencies
-#      - run: |
-#          go mod download
-#          make clean
+      - name: Get denpendencies
+        run: |
+          go mod download
+          make clean
 
       - name: Build image
         run: docker build . --file Dockerfile --tag docker.pkg.github.com/89trillion/WW4_Server/$IMAGE_NAME
