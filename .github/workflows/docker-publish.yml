@@ -2,18 +2,23 @@ name: Docker
 
 on:
   push:
+    # Publish `main` as Docker `latest` image.
     branches:
       - main
 
+    # Publish `v1.2.3` tags as releases.
     tags:
       - v*
 
+  # Run tests for any PRs.
   pull_request:
 
 env:
   IMAGE_NAME: ${{ secrets.IMAGE_NAME }}:${{ secrets.IMAGE_VERSION }}
 
 jobs:
+  # Run tests.
+  # See also https://docs.docker.com/docker-hub/builds/automated-testing/
   test:
     runs-on: ubuntu-latest
 
@@ -28,6 +33,8 @@ jobs:
           else
             docker build . --file Dockerfile
           fi
+  # Push image to GitHub Packages.
+  # See also https://docs.docker.com/docker-hub/builds/
   push:
     needs: test
 
