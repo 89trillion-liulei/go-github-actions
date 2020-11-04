@@ -45,11 +45,11 @@ jobs:
           make clean
 
       - name: Build image
-        run: docker build . --file Dockerfile --tag docker.pkg.github.com/89trillion-liulei/go-github-actions/$IMAGE_NAME
+        run: docker build . --file Dockerfile --tag docker.pkg.github.com/89trillion/WW4_Server/$IMAGE_NAME
 
       - name: Log into GitHub Container Registry
         run: echo "${{ secrets.CR_PAT }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
 
       - name: Push image to GitHub Container Registry
         run: |
-          docker push docker.pkg.github.com/89trillion-liulei/go-github-actions/$IMAGE_NAME
+          docker push docker.pkg.github.com/89trillion/WW4_Server/$IMAGE_NAME
