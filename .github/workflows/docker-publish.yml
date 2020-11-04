@@ -42,10 +42,10 @@ jobs:
     if: github.event_name == 'push'
 
     steps:
-#      - name: checkout
-#      - uses: actions/checkout@v2
+      - name: Checkout
+      - uses: actions/checkout@v2
 
-      - name: get denpendencies
+      - name: Get denpendencies
       - run: |
           go mod download
           make clean
