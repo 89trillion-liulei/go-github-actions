@@ -42,8 +42,8 @@ jobs:
     if: github.event_name == 'push'
 
     steps:
-#      - name: checkout
-#      - uses: actions/checkout@v2
+      - name: checkout
+      - uses: actions/checkout@v2
 
 #      - name: get denpendencies
 #      - run: |
