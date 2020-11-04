@@ -67,7 +67,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add hello demo" />
     <MESSAGE value="Merge branch 'main' of github.com:89trillion-liulei/go-github-actions into actions-demo&#10;&#10;# Conflicts:&#10;#&#9;.github/workflows/main.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'main' of github.com:89trillion-liulei/go-github-actions into actions-demo&#10;&#10;# Conflicts:&#10;#&#9;.github/workflows/main.yml" />
+    <MESSAGE value="change docker-publish.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="change docker-publish.yml" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -85,12 +86,12 @@
       <screen x="-569" y="-1417" width="2560" height="1417" />
     </state>
     <state x="581" y="-873" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.823/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604392507952" />
-    <state x="447" y="-1129" key="CommitChangelistDialog2" timestamp="1604400536205">
+    <state x="447" y="-1129" key="CommitChangelistDialog2" timestamp="1604456212637">
       <screen x="-569" y="-1417" width="2560" height="1417" />
     </state>
     <state x="447" y="-1129" key="CommitChangelistDialog2/0.23.1440.821/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604400536205" />
     <state x="447" y="-1129" key="CommitChangelistDialog2/0.23.1440.822/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604395869335" />
-    <state x="447" y="-1129" key="CommitChangelistDialog2/0.23.1440.823/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604393648708" />
+    <state x="447" y="-1129" key="CommitChangelistDialog2/0.23.1440.823/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604456212637" />
     <state x="263" y="-1021" key="MergeDialog" timestamp="1604391884749">
       <screen x="-569" y="-1417" width="2560" height="1417" />
     </state>
