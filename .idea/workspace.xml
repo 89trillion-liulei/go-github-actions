@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7609e781-aaa4-4360-b453-e9ea34839e2b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7609e781-aaa4-4360-b453-e9ea34839e2b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,9 +84,10 @@
       <screen x="-569" y="-1417" width="2560" height="1417" />
     </state>
     <state x="581" y="-873" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.823/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604392507952" />
-    <state x="572" y="46" key="CommitChangelistDialog2" timestamp="1604462926907">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="572" y="0" width="825" height="848" key="CommitChangelistDialog2" timestamp="1604465927778">
+      <screen x="0" y="0" width="1440" height="848" />
     </state>
+    <state x="572" y="0" width="825" height="848" key="CommitChangelistDialog2/0.0.1440.848/-569.-1417.2560.1417@0.0.1440.848" timestamp="1604465927778" />
     <state x="572" y="46" key="CommitChangelistDialog2/0.0.1440.900/-569.-1440.2560.1440@0.0.1440.900" timestamp="1604462926907" />
     <state x="447" y="-1129" key="CommitChangelistDialog2/0.23.1440.821/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604400536205" />
     <state x="447" y="-1129" key="CommitChangelistDialog2/0.23.1440.822/-569.-1417.2560.1417@-569.-1417.2560.1417" timestamp="1604395869335" />
